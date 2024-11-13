@@ -1,8 +1,5 @@
 # TinyLlama-medical-qa-system
 Medical question answering system based on TinyLlama
-```
-
-## README.md 内容
 ```markdown
 # Medical QA System
 基于 TinyLlama 的医疗问答系统
