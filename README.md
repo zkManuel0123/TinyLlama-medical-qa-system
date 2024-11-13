@@ -1,68 +1,61 @@
 # TinyLlama-medical-qa-system
 Medical question answering system based on TinyLlama
-```markdown
-# Medical QA System
-基于 TinyLlama 的医疗问答系统
+## Features
+- Uses the TinyLlama-1.1B-Chat model
+- Fine-tuned for the medical domain using LoRA
+- Multi-agent collaborative question-answering system
+- Supports medical literature retrieval and analysis
 
-## 功能特点
-- 基于 TinyLlama-1.1B-Chat 模型
-- 使用 LoRA 进行医疗领域微调
-- 多 Agent 协作的问答系统
-- 支持医学文献检索和分析
-```
-安装说明
-1. 克隆仓库：
+Installation Instructions
+1. Clone the Repository：
 ```bash
 git clone https://github.com/yourusername/medical-qa-system.git
 cd medical-qa-system
 ```
 
-2. 安装依赖：
+2. Install Dependencies：
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 下载模型：
+3. Download the Model：
 ```bash
 python scripts/download_models.py
 ```
 
-## 使用方法
-1. 基本使用：
+## Usage
+1. Basic Usage：
 ```python
 from src.model import TransformersLLM
 from src.agents import create_agents
 
-# 创建向量存储
+# Create vector store
 vectorstore = create_vectorstore()
 
-# 创建agents
+# Create agents
 agents = create_agents(vectorstore)
 
-# 处理查询
+# Process a query
 query = "What are the common treatments for diabetes?"
 result = process_query(query, *agents)
 ```
 
-2. 高级配置请参考 `docs/usage.md`
-
-## 模型信息
-- 基础模型：TinyLlama/TinyLlama-1.1B-Chat-v1.0
-- LoRA 模型：[您的模型链接]
+## Model Information
+- Base Model：TinyLlama/TinyLlama-1.1B-Chat-v1.0
+- LoRA Model：https://huggingface.co/Kai0123/tinyllama-medical-qa-lora-model
 
 ## License
 MIT
 
-## 引用
-如果您使用了本项目，请引用：
-[citation information]
-```
+## Citation
+If you use this project, please cite:
+**Citation for Medical QA System**  
+Kai Zhao. "TinyLlama-medical-qa-system." GitHub, 2024. Available at: https://github.com/zkManuel0123/medical-qa-system
 
-## requirements.txt
-```
-langchain>=0.1.0
-transformers>=4.36.0
-torch>=2.1.0
-peft>=0.7.0
-faiss-cpu>=1.7.4
+**Citation for TinyLlama**  
+Author(s) of TinyLlama. "TinyLlama Model." 
+
+**Citation for Hugging Face Transformers**  
+Thomas Wolf, et al. "Transformers: State-of-the-art Natural Language Processing." In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2020. Available at: https://github.com/huggingface/transformers
+
 ```
