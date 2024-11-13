@@ -24,7 +24,7 @@ Medical question answering system based on TinyLlama
 - Parameter-efficient fine-tuning
 - Model weight merging optimization
 
-Installation Instructions
+# Installation Instructions
 1. Clone the Repository：
 ```bash
 git clone https://github.com/zkManuel0123/medical-qa-system.git
