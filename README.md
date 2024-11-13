@@ -1,10 +1,28 @@
 # TinyLlama-medical-qa-system
 Medical question answering system based on TinyLlama
-## Features
-- Uses the TinyLlama-1.1B-Chat model
-- Fine-tuned for the medical domain using LoRA
-- Multi-agent collaborative question-answering system
-- Supports medical literature retrieval and analysis
+## Base Model:
+- TinyLlama-1.1B-Chat (Base Language Model)
+- LoRA (Low-Rank Adaptation) Fine-Tuning Technique
+- PEFT (Parameter Efficient Fine-Tuning) Framework
+## Retrieval-Augmented Generation:
+- RAG (Retrieval-Augmented Generation) Technique
+- FAISS Vector Database
+- Sentence Transformers for Text Vectorization
+## Framework and Tools:
+- LangChain Framework for Large Language Model Applications
+- Hugging Face Transformers Library
+- PyTorch Deep Learning Framework
+## Multi-Agent Collaborative Architecture
+- Retriever Agent: Responsible for retrieving medical literature
+- Analyzer Agent: Responsible for information analysis and extraction
+- Generator Agent: Responsible for answer generation and organization
+## Vector Storage Module:
+- Uses FAISS to build efficient vector indexing
+- Enables fast similarity search
+## Model Optimization:
+- Domain adaptation with LoRA adapters
+- Parameter-efficient fine-tuning
+- Model weight merging optimization
 
 Installation Instructions
 1. Clone the Repository：
