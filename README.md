@@ -9,8 +9,8 @@ Medical question answering system based on TinyLlama
 - 使用 LoRA 进行医疗领域微调
 - 多 Agent 协作的问答系统
 - 支持医学文献检索和分析
-
-## 安装说明
+```
+安装说明
 1. 克隆仓库：
 ```bash
 git clone https://github.com/yourusername/medical-qa-system.git
