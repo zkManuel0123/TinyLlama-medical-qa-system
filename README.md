@@ -9,8 +9,8 @@ Medical question answering system based on TinyLlama
 Installation Instructions
 1. Clone the Repository：
 ```bash
-git clone https://github.com/yourusername/medical-qa-system.git
-cd medical-qa-system
+git clone https://github.com/zkManuel0123/medical-qa-system.git
+cd TinyLlama-medical-qa-system
 ```
 
 2. Install Dependencies：
@@ -19,9 +19,7 @@ pip install -r requirements.txt
 ```
 
 3. Download the Model：
-```bash
-python scripts/download_models.py
-```
+using model_download.ipynb to download the models
 
 ## Usage
 1. Basic Usage：
