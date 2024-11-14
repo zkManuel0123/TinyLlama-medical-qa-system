@@ -30,14 +30,10 @@ Medical question answering system based on TinyLlama
 git clone https://github.com/zkManuel0123/medical-qa-system.git
 cd TinyLlama-medical-qa-system
 ```
-
-2. Install Dependencies：
+2. Download the Model：
 ```bash
-pip install -r requirements.txt
-```
-
-3. Download the Model：
 using model_download.ipynb to download the models
+```
 
 ## Usage
 1. Basic Usage：
