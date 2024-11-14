@@ -34,6 +34,7 @@ cd TinyLlama-medical-qa-system
 ```bash
 using model_download.ipynb to download the models
 ```
+3. run rag_demo.ipynb
 
 ## Usage
 1. Basic Usage：
